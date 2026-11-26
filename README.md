@@ -13,3 +13,8 @@ A lightweight command-line utility written in Python to inspect basic DNS resolu
 ### Basic run (standard library only)
 ```bash
 python3 dns_auditor.py example.com
+```
+### Full DNS & email security checks (with dnspython)
+```bash
+pip install dnspython
+python3 dns_auditor.py example.com example.org --json
